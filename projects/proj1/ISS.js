@@ -21,7 +21,7 @@ var cnv;
 function preload()
 {
   mapimg = loadImage('https://api.mapbox.com/styles/v1/mapbox/dark-v9/static/'+ clon + ',' + clat + ',' + zoom + ',0,0/1024x512?access_token=pk.eyJ1IjoibGFuZG9ubGpmIiwiYSI6ImNqbjhsZGRnMTFlcXQzcW52M21wb25odGQifQ.wn8uDH5rYnlvmAi9hn1OQg');
-  loadJSON('//api.open-notify.org/iss-now.json', gotData);
+  loadJSON('http://api.open-notify.org/iss-now.json', gotData);
 }
 
 
