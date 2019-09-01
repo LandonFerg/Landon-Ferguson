@@ -1,11 +1,31 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
+.contact_info{
+  padding-top: 30px;
+  padding-right: 5px;
+}
+
+.numbers{
+  color: #ff3333;
+}
+
+/* th{
+  padding-bottom: 10px;
+  padding-left: 50px;
+} */
+
 h1{
   color: white;
   font-family: 'Montserrat' , sans-serif;
   text-align: center;
     margin-top: 5px;
     margin-bottom: 0px;
+}
+
+h2{
+  color: white;
+  font-family: 'Montserrat' , sans-serif;
+  text-align: center;
 }
 
 h3{
@@ -78,6 +98,7 @@ a:visited {
 table{
   padding-top: 40px;
   color:white;
+  padding-left: 100px;
 }
 
 td{

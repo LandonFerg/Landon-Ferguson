@@ -32,11 +32,6 @@ function centerCanvas()
   cnv.position(x, y);
 }
 
-/*function windowResized()
-{
-  centerCanvas();
-}*/
-
 function gotData(data)
 {
   console.log("got data");
@@ -87,14 +82,6 @@ function setup()
   cnv = createCanvas(1024,512);
   cnv.parent('sketch-holder');
 
-  //var canvasx = (windowWidth - width) / 2;
-  //var canvasy = (windowHeight - height) / 2;
-  //cnv.position(canvasx, canvasy);
-
-  //translate(width / 2, height / 2); // set our origins
-  //imageMode(CENTER);
-
-
   image(mapimg,0,0);
 
   setInterval(askISS, 1000);
@@ -112,7 +99,7 @@ function setup()
 
 
    var size = 20;
-   var centerX = mercX(clon);  // HAS TO BE BEFORE THE FOR LOOP -- ME FUCKING 2 HOURS LATER JESUS CHRIST
+   var centerX = mercX(clon);  // has to be before the loop
    var centerY = mercY(clat);
 
    // Drawing ISS
