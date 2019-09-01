@@ -82,6 +82,7 @@ function setup()
   cnv = createCanvas(1024,512);
   cnv.parent('sketch-holder');
 
+
   image(mapimg,0,0);
 
   setInterval(askISS, 1000);
@@ -99,7 +100,7 @@ function setup()
 
 
    var size = 20;
-   var centerX = mercX(clon);  // has to be before the loop
+   var centerX = mercX(clon);
    var centerY = mercY(clat);
 
    // Drawing ISS
