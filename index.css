@@ -2,7 +2,7 @@
 
 .contact_info{
   padding-top: 23px;
-  padding-left: 30px;
+  padding-left: 0px;
   text-align: left;
 }
 
@@ -13,11 +13,6 @@
 .nameLabel{
   padding-left: 40px;
 }
-
-/* th{
-  padding-bottom: 10px;
-  padding-left: 50px;
-} */
 
 h1{
   color: white;
@@ -103,7 +98,7 @@ a:visited {
 table{
   padding-top: 40px;
   color:white;
-  padding-left: 120px;
+  padding-left: 170px;
 }
 
 td{
