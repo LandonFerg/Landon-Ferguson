@@ -21,8 +21,17 @@ table{
 }
 
 .responsiveImg{
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
+}
+
+video {
+    left: 50%;
+    margin: 0 auto;
+    position: absolute;
+    transform: translate(-50%);
+    max-width: 80%;
+    height: auto;
 }
 
 td{
@@ -113,5 +122,8 @@ a:visited {
 #descText{
   color: white;
   font-family: 'Montserrat' , sans-serif;
+  width:50%;
+  margin: auto;
+  padding-top: 20px;
   text-align: center;
 }
