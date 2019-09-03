@@ -20,6 +20,11 @@ table{
   padding-left: 150px;
 }
 
+.responsiveImg{
+  max-width: 100%;
+  height: auto;
+}
+
 td{
   /* padding-right: 20px; */
 }
